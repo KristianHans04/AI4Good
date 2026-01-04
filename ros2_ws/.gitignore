@@ -1,0 +1,45 @@
+# ROS2 Workspace .gitignore
+
+# Build directories
+build/
+install/
+log/
+
+# Package-specific build/install (for mixed workspaces)
+src/*/build/
+src/*/install/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ROS logs and temporary files
+*.log
+*.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Colcon cache
+.colcon/
+
+# Gazebo logs
+.gazebo/
+
+# Simulation files (if any custom)
+*.bag
+*.mcap
+
+# Environment files (sensitive)
+.env
+secrets.json
